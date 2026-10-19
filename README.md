@@ -6,6 +6,25 @@
 
 🎬 [Game Trailer](https://youtu.be/YOfqYJDxFtg) · 🎮 [Game Play](https://youtu.be/4ZRP9fDed2o)
 
+## 👤 내 역할 — 최정빈 (기획 1인 · PM)
+
+> 이 저장소는 팀 저장소 [NBcampUnrealTrack/8th-Team4-Final-Project](https://github.com/NBcampUnrealTrack/8th-Team4-Final-Project) 백업입니다. 8인 팀(기획 1 · 프로그래머 4 · 레벨 디자인 1 · 애니메이션 1 · UI 1) 중 제가 맡은 범위와 대표 커밋을 정리했습니다. · [기획 포트폴리오 (Notion)](https://www.notion.so/3fb5b2866264812a9bccc18ac9a6b783)
+
+| 구분 | 범위 |
+|---|---|
+| 기획 · PM | 게임 모드 개정(라운드제 폭탄전 → 5거점 선형 점령전), 증강 데이터 · 등급 확률, 증강 조합 TTK 1~8차 검증, 시스템 기획서 11종 |
+| 레벨 | 레벨 구조 설계 · 공동 레벨 디자인, 레벨 · 환경 아트 |
+| 직접 구현 (C++) | 거점 기믹(정찰 단말 · 중계 비콘), 스폰 보호 장벽 · 맵 경계 장벽, 물리 머티리얼 · 임팩트 |
+
+**대표 커밋**
+- [`2feb806`](https://github.com/j1b2c3/DustBase/commit/2feb806a50bcb1fb83d5bb6e33daf5fd604b5f70) 거점 기믹 시스템 추가 (C 정찰 단말, B/D 중계 비콘)
+- [`a3b1da2`](https://github.com/j1b2c3/DustBase/commit/a3b1da21bc8ba0bbf155fd3980874941e6d31c00) 맵 경계 장벽(ZoneWall) 단방향 통과
+- [`e8cccd9`](https://github.com/j1b2c3/DustBase/commit/e8cccd966da631493407466b72e1776fa320901a) 늦은 접속 시 맵 · 스폰 장벽이 안 보이는 현상 보정
+- [`67c13e9`](https://github.com/j1b2c3/DustBase/commit/67c13e91ebbaba9d9988ed18c5d85b18ed2de03b) 샷건 원거리 0 대미지를 코드 대신 데이터(최대 사거리 30m · 최소 대미지 1)로 수정
+- [`5446e44`](https://github.com/j1b2c3/DustBase/commit/5446e448f3fbc306d87218b0670e840f7988f45a) TTK 검증 결과를 반영한 증강 밸런스 패치
+- [`7c281bd`](https://github.com/j1b2c3/DustBase/commit/7c281bd3f3bc42ca5fa329279bbba2174ee4c003) 거점 마커 · 점령 UI 판정을 서버 점령 기준으로 통일
+
+
 ## 실행 방법
 
 1. [**DustBase.zip 다운로드 (Google Drive)**](https://drive.google.com/file/d/1P7Kks071e7xaSB0cWPkvCURpRjdH51CU/view?usp=sharing)
